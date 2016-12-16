@@ -1,0 +1,30 @@
+{
+    "name": "cba85/content-spinning",
+    "description": "A simple PHP content spinning for SEO",
+    "keywords": [
+        "content",
+        "spinning",
+        "php"
+    ],
+    "homepage": "https://github.com/cba85/content-spinning",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Clément Barbaza",
+            "email": "bonjour@clementbarbaza.com",
+            "homepage": "https://github.com/cba85",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ContentSpinning\\": "src"
+        }
+    }
+}
